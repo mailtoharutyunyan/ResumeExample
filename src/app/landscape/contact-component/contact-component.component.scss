@@ -1,0 +1,187 @@
+@import "../../../assets/scss/_variables.scss";
+@import "../../../assets/scss/_bootstrap-overrides.scss";
+
+.nav {
+  position: relative;
+  padding-bottom: 0;
+
+  .img-profile {
+    max-width: 50vw;
+    max-height: 50vw;
+    border: 0.3rem solid fade-out($secondary, 0.8);
+    margin: 1.5rem auto 0 !important;
+  }
+
+  .profile-info {
+    text-align: center;
+    font-family: 'Homenaje', sans-serif;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: $gray-700;
+    line-height: .5rem;
+    padding: 0;
+    padding-top: 1.3rem;
+    padding-bottom: 2rem;
+
+    h1 {
+      font-size: 30pt;
+      margin: 0 auto;
+    }
+
+    small {
+      font-size: 18pt;
+    }
+  }
+
+  .contact-data {
+    background-color: $primary;
+    color: $white;
+    line-height: .2rem;
+    padding: 2rem;
+
+    h3 {
+      font-family: 'Homenaje', sans-serif;
+      text-transform: uppercase;
+      font-size: 1.2rem;
+      margin-bottom: .7rem;
+      letter-spacing: 3px;
+      margin: .4rem;
+    }
+
+    .section {
+      font-family: 'Open Sans', sans-serif;
+      margin: 0 !important;
+      margin-bottom: 1rem !important;
+    }
+
+    .section>* {
+      display: inline;
+    }
+
+    .section i {
+      margin: .4rem;
+    }
+
+    .section h4 {
+      color: $yellow;
+      font-size: 12pt !important;
+    }
+
+    .section span {
+      font-size: 9pt;
+      display: block;
+      letter-spacing: .5px;
+
+      a {
+        color: $white;
+        text-decoration: none;
+      }
+
+      a:hover {
+        border-bottom: 1px dashed $white;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 350px) and (max-width: 479px) {
+  .nav {
+    .contact-data {
+      .section span {
+        font-size: 11pt !important;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 480px) and (orientation: landscape) {
+  .nav {
+    .img-profile {
+      max-width: 30vw;
+      max-height: 30vw;
+      margin: .5rem auto -.5rem auto !important;
+    }
+
+    .profile-info {
+      h1 {
+        font-size: 35pt;
+        margin: 0 auto;
+      }
+
+      small {
+        font-size: 21pt;
+      }
+    }
+
+    .contact-data {
+
+      h3 {
+        font-size: 16pt;
+      }
+
+      .section h4 {
+        font-size: 14pt;
+      }
+
+      .section span {
+        font-size: 12pt;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+
+  .nav {
+    position: fixed;
+    top: 5vh;
+    left: 0;
+
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    border-right: 3px solid $primary;
+    padding: 0;
+
+    .img-profile {
+      max-width: 8rem;
+      max-height: 8rem;
+      border: 0.3rem solid fade-out($gray-600, 0.8);
+    }
+
+    .profile-info {
+      width: 100%;
+    }
+  }
+}
+
+@media screen and (min-width: 992px) {
+
+  .nav .profile-info {
+
+    h1 {
+      font-size: 27pt;
+    }
+
+    small {
+      font-size: 15pt;
+    }
+  }
+
+  .nav .contact-data {
+
+    padding: 1rem 2rem !important;
+
+    h3 {
+      font-size: 14pt;
+    }
+
+    .section h4 {
+      font-size: 12pt;
+    }
+
+    .section span {
+      font-size: 10pt;
+    }
+  }
+}

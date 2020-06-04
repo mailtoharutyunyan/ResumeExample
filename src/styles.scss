@@ -1,0 +1,69 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Homenaje|Open+Sans');
+@import "assets/scss/resume.scss";
+
+* {
+  transition: all 0.3s ease;
+}
+
+body {
+  background-color: #E2E2E2;
+  margin-bottom: 3.3rem;
+}
+
+#main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.spinner {
+  position: relative;
+}
+
+.spinner:before,
+.spinner:after {
+  content: "";
+  position: relative;
+  display: block;
+}
+
+.spinner:before {
+  animation: spinner 2.5s cubic-bezier(0.75, 0, 0.5, 1) infinite normal;
+  width: 1em;
+  height: 1em;
+  background-color: #E25A32;
+}
+
+.spinner:after {
+  animation: shadow 2.5s cubic-bezier(0.75, 0, 0.5, 1) infinite normal;
+  bottom: -.5em;
+  height: .25em;
+  border-radius: 50%;
+  background-color: rgba(#000, 0.2);
+}
+
+@keyframes spinner {
+  50% {
+    border-radius: 50%;
+    transform: scale(0.5) rotate(360deg);
+  }
+
+  100% {
+    transform: scale(1) rotate(720deg);
+  }
+}
+
+@keyframes shadow {
+  50% {
+    transform: scale(0.5);
+    background-color: rgba(#000, 0.1);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    margin-bottom: 0;
+  }
+}

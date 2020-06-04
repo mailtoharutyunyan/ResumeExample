@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Homenaje|Open+Sans');
+
+.bg-primary {
+  background-color: $primary !important;
+}
+
+.text-primary {
+  color: $primary !important;
+}
+
+a {
+  color: $primary;
+
+  &:hover,
+  &:focus,
+  &:active {
+    color: darken($primary, 15%);
+  }
+}
+
+.row {
+  margin: 0 !important;
+}
+
+.card {
+
+  padding: 2rem;
+  margin: .5rem 0;
+  border-left: none;
+  border-right: none;
+
+  .card-body {
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+
+    .card-title,
+    .card-subtitle {
+      text-transform: uppercase;
+      font-family: 'Homenaje', sans-serif !important;
+    }
+  }
+
+}
+
+@media screen and (min-width: 768px) {
+  .card {
+    margin: .5rem;
+    border-left: inherit;
+    border-right: inherit;
+  }
+}

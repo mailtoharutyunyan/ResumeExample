@@ -1,0 +1,153 @@
+{
+  "general": {
+    "languages": {
+      "title": "Idiomas:",
+      "es": "Español",
+      "en": "Inglés"
+    }
+  },
+  "profile": {
+    "name": "Yeison Restrepo",
+    "career": "Desarrollador Front-End",
+    "extract": {
+      "title": "Perfil",
+      "text": "Me considero una persona responsable, participativa y emprendedora con muchas ganas de aplicar las competencias adquiridas y seguir aprendiendo cada vez más. De excelente presentación personal y de buenas relaciones interpersonales que tiene habilidad para trabajar en equipo o individualmente."
+    }
+  },
+  "contact": {
+    "title": "CONTACTO",
+    "data": {
+      "address": {
+        "title": "DIRECCIÓN",
+        "location": "CRA 27D # 72W2 - 18",
+        "city": "Cali",
+        "country": "Colombia"
+      },
+      "phone": {
+        "title": "TELÉFONO",
+        "countryIndicator": "(+57)",
+        "number": "320 604 8488"
+      },
+      "email": {
+        "title": "CORREO ELECTRÓNICO",
+        "account": "yeison.restrepo.r@gmail.com"
+      },
+      "skype": {
+        "title": "SKYPE",
+        "account": "yeisonrestrepo23"
+      }
+    }
+  },
+  "skills": {
+    "title": "Habilidades",
+    "description": "Lenguajes de programación, herramientas y características más usadas",
+    "charts": [{
+        "class": "javascript",
+        "icon": "&#xe681;"
+      },
+      {
+        "class": "html",
+        "icon": "&#xe636;"
+      },
+      {
+        "class": "css",
+        "icon": "&#xe649;"
+      },
+      {
+        "class": "angular",
+        "icon": "&#xe653;"
+      },
+      {
+        "class": "sass",
+        "icon": "&#xe64b;"
+      },
+      {
+        "class": "bootstrap",
+        "icon": "&#xe647;"
+      },
+      {
+        "class": "npm",
+        "icon": "&#xe61e;"
+      },
+      {
+        "class": "git",
+        "icon": "&#xe602;"
+      }
+    ],
+    "workflow": {
+      "title": "Flujo de trabajo",
+      "items": [
+        "Mobile-First, Diseño responsivo",
+        "Desarrollo ágil & Scrum",
+        "Equipos multifuncionales",
+        "Aplicaciones reactivas con RxJS"
+      ]
+    }
+  },
+  "work": {
+    "title": "Experiencia laboral",
+    "jobs": [{
+        "title": "Intergrupo",
+        "position": "Ingeniero de desarrollo",
+        "from": "08-2018",
+        "to": "Actualmente",
+        "description": "Procesos ágiles de desarrollo basados en Scrum enfocados en desarrollo de componentes Front-end con Angular, implementación de arquitecturas de alto nivel para Angular 6 - 7."
+      },
+      {
+        "title": "Takúm S.A.S",
+        "position": "Desarrollador Front-end",
+        "from": "12-2017",
+        "to": "08-2018",
+        "description": "Liderar procesos de desarrollo de componentes Front-end que permitieron mejorar los flujos de las aplicaciones desarrolladas, así como definir arquitecturas de alto nivel impactaron de forma positiva en el mantenimiento y la escalabilidad de las aplicaciones."
+      }
+    ]
+  },
+  "education": {
+    "title": "Educación",
+    "list": [{
+        "title": "Análisis y desarrollo de sistemas de información",
+        "level": "Tecnológico",
+        "year": "2009",
+        "institute": "Servicio Nacional de Aprendizaje (SENA)",
+        "description": "Grado tecnológico que comprende el desarrollo de aplicaciones, la gestión de bases de datos y el análisis de requerimientos."
+      },
+      {
+        "title": "Webmaster",
+        "level": "Especialización tecnológica",
+        "year": "2012",
+        "institute": "Servicio Nacional de Aprendizaje (SENA)",
+        "description": "Especialización en administración de páginas web, SEO, etiquetas meta y desarrollo de aplicaciones 2.0"
+      },
+      {
+        "title": "Modelos de calidad del software",
+        "level": "Curso",
+        "year": "2016",
+        "institute": "Servicio Nacional de Aprendizaje (SENA)",
+        "description": "Implementación de modelos que permitan certificar y garantizar la calidad de los productos y procesos de software."
+      }
+    ]
+  },
+  "about": {
+    "title": "Información adicional",
+    "description": "Esta página fue desarrollada con las siguientes tecnologías:",
+    "technologies": [{
+        "class": "angular",
+        "icon": "&#xe653;"
+      },
+      {
+        "class": "bootstrap",
+        "icon": "&#xe647;"
+      },
+      {
+        "class": "sass",
+        "icon": "&#xe64b;"
+      }
+    ],
+    "code": {
+      "seeMore": "El código de esta app se encuentra alojado en:",
+      "icon": "&#xe609;",
+      "urlText": "Github",
+      "url": "https://github.com/yeisonrestrepo/NgResume"
+    }
+  }
+}

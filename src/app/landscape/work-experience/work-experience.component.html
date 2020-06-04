@@ -1,0 +1,12 @@
+<div class="card border-topbottom">
+  <div class="card-body">
+    <h5 class="card-title">{{ 'work.title' | translate }}</h5>
+    <div class="card-text">
+      <div class="job-item" *ngFor="let job of 'work.jobs' | translate">
+        <h5 class="job-title">{{job.title}}</h5>
+        <small class="job-date">{{job.from}} | {{job.to}}</small>
+        <div class="job-description text-justify">{{job.description}}</div>
+      </div>
+    </div>
+  </div>
+</div>
